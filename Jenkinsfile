@@ -1,5 +1,3 @@
-[11:34 AM] Sivaram  Loknath
-    
 pipeline {
     agent any
     stages {
