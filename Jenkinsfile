@@ -14,6 +14,17 @@ pipeline {
 
                         }
                     }
+        stage('Test: Unit Test'){
+   steps {
+     bat "C:\Users\KARAN\Downloads\TestJenkins\\UnitTest_src/SmartStoreNet.sln"
+     }
+  }
+       
+ stage('Test: Integration Test'){
+    steps {
+       bat "C:\Users\KARAN\Downloads\TestJenkins\\IntegrateTest_src/SmartStoreNet.sln"
+      }
+   }
             }
 }
  
