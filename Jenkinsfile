@@ -16,13 +16,13 @@ pipeline {
                     }
         stage('Test: Unit Test'){
    steps {
-     bat "C:\Users\KARAN\Downloads\TestJenkins\\UnitTest_src/SmartStoreNet.sln"
+     bat "https://github.com/KARAN1234RAJ/smart_store_v01.git\\UnitTest_src/SmartStoreNet.sln"
      }
   }
        
  stage('Test: Integration Test'){
     steps {
-       bat "C:\Users\KARAN\Downloads\TestJenkins\\IntegrateTest_src/SmartStoreNet.sln"
+       bat "https://github.com/KARAN1234RAJ/smart_store_v01.git\\IntegrateTest_src/SmartStoreNet.sln"
       }
    }
             }
