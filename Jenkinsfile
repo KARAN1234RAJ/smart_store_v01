@@ -14,17 +14,7 @@ pipeline {
 
                         }
                     }
-        stage('Test: Unit Test'){
-   steps {
-     bat "https://github.com/KARAN1234RAJ/smart_store_v01.git\\UnitTest_src/SmartStoreNet.sln"
-     }
-  }
        
- stage('Test: Integration Test'){
-    steps {
-       bat "https://github.com/KARAN1234RAJ/smart_store_v01.git\\IntegrateTest_src/SmartStoreNet.sln"
-      }
-   }
             }
 }
  
